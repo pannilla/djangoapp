@@ -1,2 +1,2 @@
 Django
-sqlite3
+pysqlite3
