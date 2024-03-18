@@ -3,8 +3,7 @@ runtime: python3
 build:
   commands:
     build: 
-      - pip upgrade
-      - pip install -r requirements.txt
+      - pip install --upgrade -r requirements.txt
 run:
   command: python manage.py runserver
   network: 
